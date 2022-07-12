@@ -13,6 +13,7 @@
     />
     <link rel="stylesheet" href="styles/styles.css" />
     <link rel="stylesheet" href="styles/overlays.css" />
+    <link rel="stylesheet" href="styles/configuration.css" />
   </head>
   <body>
     <div id="backdrop"></div>
@@ -22,10 +23,11 @@
     </header>
 
     <main>
-      <aside class="modal">
+      <aside id="config-overlay" class="modal">
         <h2>Enter your name</h2>
+
         <form>
-          <div>
+          <div class="form-control">
             <label for="player-name">Player name</label>
             <input type="text" name="player-name" id="player-name" />
           </div>
