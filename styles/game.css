@@ -34,7 +34,7 @@
   grid-template-columns: repeat(3, 6rem);
   grid-template-rows: repeat(3, 6rem);
   justify-content: center;
-  gap: 0.5rem
+  gap: 0.5rem;
 }
 
 #game-board li {
@@ -49,11 +49,11 @@
 }
 
 #game-board li:hover {
-  background-color: rgb(2, 124, 130);
+  background-color: rgb(1, 148, 156);
 }
 
 #game-board li.disabled {
-  background-color: rgb(2, 124, 130);
+  background-color: rgb(1, 148, 156);
   color: white;
   cursor: default;
 }
