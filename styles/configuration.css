@@ -73,3 +73,7 @@
   color: rgb(47, 4, 82);
   margin: 0.5rem 0;
 }
+
+#start-game-btn {
+  margin-top: 1rem;
+}
