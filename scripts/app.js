@@ -47,5 +47,6 @@ formElement.addEventListener('submit', savePlayerConfig);
 startNewGameBtn.addEventListener('click', startNewGame);
 
 continueOverlayBtn.addEventListener('click', closeWarningOverlay);
+backdropElement.addEventListener('click', closeWarningOverlay);
 
 gameBoardElement.addEventListener('click', selectGameField);
